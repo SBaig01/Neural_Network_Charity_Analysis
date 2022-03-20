@@ -6,14 +6,14 @@ This analysis was conducted to determine a binary classifier that is capable of 
 ## Results
 
 ### Data Preprocessing
-- What variable(s) are considered the target(s) for your model?
-What variable(s) are considered to be the features for your model?
-What variable(s) are neither targets nor features, and should be removed from the input data?
-Compiling, Training, and Evaluating the Model
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Were you able to achieve the target model performance?
-What steps did you take to try and increase model performance?
+- Target variable: IS-SUCCESSFUL
+- Features: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT 
+- Features removed from the input data: EIN and NAME
+
+### Compiling, Training, and Evaluating the Model
+- I selected 80 neurons for my first layer and 30 for the second layer. 
+- I was not able to achieve the target model performance.
+- I tried to increase the model performance by 1) selecting a different number of hidden notes 2) removing certain input features 3) selecting a different number of neurons.
 
 ## Summary
-There is a summary of the results (2 pt)
-There is a recommendation on using a different model to solve the classification problem, and justification (3 pt)
+I was not able to achieve the target accuracy. Perhaps I could increase it by removing additional features from the dataset.
